@@ -8,8 +8,9 @@ var world;
 var radius = 70;
 
 function preload(){
-	dustbinImg = loadImage("dustbin.png");
-	paperImg = loadImage("paper.png");
+	
+	
+	
 }
 
 
@@ -53,10 +54,12 @@ function draw() {
 	
 	imageMode(CENTER);
 	// use image() command to add paper image to the ball.
-	image(paperImg,ball.position.x,ball.position.y,radius,radius)
-
+	
+	
 	// use image() command to add dustbin image in the canvas.
-	image(dustbinImg, 1185, 570, 200,200)
+	
+	
+	
 
 
 
